@@ -43,7 +43,7 @@ query ProjectsPage {
                 title
                 thumb {
                 childImageSharp {
-                    gatsbyImageData(layout: FULL_WIDTH, placeholder: BLURRED, formats: JPG)
+                    gatsbyImageData(layout: FULL_WIDTH, placeholder: BLURRED, formats: PNG)
                 }
                 }
             }
