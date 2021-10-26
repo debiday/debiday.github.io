@@ -4,6 +4,7 @@ stack: Python, Javasript, React, Flask, HTML, SQLalchemy, postgreSQL, CSS, Mapbo
 summary: This project visualizes data of children who went missing at 18 years or younger from 2007 to 2021. 
 slug: the-lost-children
 order: 1
+thumb: ../images/thumbs/lost.jpg
 ---
 
 ### About Divercity

@@ -3,7 +3,8 @@ title: Divercity
 stack: Python, Javasript, Flask, HTML, SQLalchemy, postgreSQL, CSS
 summary: An image repository of people in different cities. 
 slug: divercity
-order: 1
+order: 2
+thumb: ../images/thumbs/city.jpg
 ---
 
 ### About Divercity
