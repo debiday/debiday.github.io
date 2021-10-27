@@ -8,5 +8,4 @@ thumb: ../images/thumbs/ecommerce.png
 featuredImg: ../images/featured/ecommerce-1.png
 ---
 
-### About ...
-This project 
+This project...
