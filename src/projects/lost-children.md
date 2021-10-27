@@ -5,6 +5,7 @@ summary: This project visualizes data of children who went missing at 18 years o
 slug: the-lost-children
 order: 1
 thumb: ../images/thumbs/lost.png
+featuredImg: ../images/featured/lost-1.png
 ---
 
 ### About Divercity

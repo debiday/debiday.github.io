@@ -5,6 +5,7 @@ summary: An image repository of people in different cities.
 slug: divercity
 order: 2
 thumb: ../images/thumbs/city.png
+featuredImg: ../images/featured/city-1.png
 ---
 
 ### About Divercity
