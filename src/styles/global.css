@@ -12,10 +12,12 @@ html, body {
 body{
     background: radial-gradient(#D2A679, #404ABF);
     background-repeat: no-repeat;
+    padding: 50px;
 }
 p {
     margin: 16px auto;
     line-height: 1.5em;
+    font-size: 14pt;
 }
 /* layout and nav*/
 .layout {
