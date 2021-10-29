@@ -7,6 +7,7 @@ order: 2
 thumb: ../images/thumbs/city.png
 featuredImg: ../images/featured/city-1.png
 link: "http://divercity.deborahong.com/"
+github: "https://github.com/Debiday/Divercity"
 
 ---
 

@@ -2,12 +2,12 @@ import { graphql } from 'gatsby'
 import React from 'react'
 import Layout from '../components/Layout'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
-import { details, html, btn } from '../styles/project-details.module.css'
+import { details, html, btn, btn2 } from '../styles/project-details.module.css'
 
 export default function ProjectDetails({ data }) {
     console.log(data)
     const { html } = data.markdownRemark
-    const { title, stack, featuredImg, link } = data.markdownRemark.frontmatter
+    const { title, stack, featuredImg, link, github } = data.markdownRemark.frontmatter
     
     return (
         <Layout>
@@ -19,6 +19,7 @@ export default function ProjectDetails({ data }) {
                 </div>  
                 <div className={html} dangerouslySetInnerHTML={{__html: html }} />
                 <button className={btn}><a href={link}>Visit</a></button>
+                <button className={btn2}><a href={github}>Github</a></button>
             </div>
         </Layout>
     )
@@ -29,6 +30,7 @@ query ProjectDetails($slug: String) {
     markdownRemark(frontmatter: {slug: {eq: $slug}}) {
         html
         frontmatter {
+            github
             link
             stack
             title
