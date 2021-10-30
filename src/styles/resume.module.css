@@ -6,7 +6,7 @@
 
     .skillset li:hover
     {
-        background:#3498db;
+        background:#0fa;
     }
     
     h1
@@ -64,6 +64,30 @@
     .skillset li
     {
         background:rgba(0,0,0,.75);
+        border-radius:5px;
+        color:#FFF;
+        display:inline-block;
+        list-style:none;
+        margin:15px 15px 0 0;
+        padding:10px;
+        text-align:justify;
+    }
+
+    .skillset2 li
+    {
+        background:rgba(58, 58, 58, 0.75);
+        border-radius:5px;
+        color:#FFF;
+        display:inline-block;
+        list-style:none;
+        margin:15px 15px 0 0;
+        padding:10px;
+        text-align:justify;
+    }
+    
+    .skillset3 li
+    {
+        background:rgba(102, 102, 102, 0.75);
         border-radius:5px;
         color:#FFF;
         display:inline-block;

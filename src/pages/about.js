@@ -1,6 +1,6 @@
 import React from 'react';
 import Layout from '../components/Layout';
-import {skillset, inner, h1, desc} from '../styles/resume.module.css'
+import {skillset, skillset2, skillset3, inner, h1, desc} from '../styles/resume.module.css'
 
 export default function about() {
     return (
@@ -8,6 +8,7 @@ export default function about() {
             <div className={inner}>
             <section>
             <h1 className={h1}>Employment</h1>
+            <br />
             <br />
             <h2>🌼 October 2021 - Present | G-research Open Source | Contract, Developer Relations</h2>
             <br />
@@ -28,7 +29,7 @@ export default function about() {
             <ul className={desc}>
                 <li>• Initiated and secured over $30,000 in project grants for multiple art shows</li>
                 <li>• Organized and curated events in galleries and public spaces</li>
-                <li>• Executed funding, budgeting, set-up, social media, press releases, accounting and take-down</li>
+                <li>• Executed funding, budgeting, set-up, social media and press releases</li>
                 <li>• Collaborated with over 150 artists </li>
             </ul>
             <h2>🌼 Jun 2015 - Dec 2020 | Ministry of Education | Teacher Researcher</h2>
@@ -41,23 +42,39 @@ export default function about() {
             </ul>
         </section>
         <section>
-            <h1 className={h1}>Technical Skills</h1>
+            <h1 className={h1}>Languages, Frameworks and Libraries</h1>
             <br />
             <ul className={skillset}>
-            <li>Software Development</li>
-            <li>Xamarin</li>
-            <li>CSS3</li>
-            <li>Adobe Photoshop</li>
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li>JQUERY</li>
-            <li>UI Design</li>
-            <li>Company Branding</li>
-            <li>Responsive Web Design</li>
+                <li>Javascript</li>
+                <li>Python</li>
+                <li>HTML</li>
+                <li>SQL</li>
+                <li>GraphQL</li>
+                <li>CSS3</li>
+                <li>Jquery</li>
+                <li>React</li>
+                <li>Gatsby</li>
+                <li>Jquery</li>
+                <li>D3</li>
+                <li>SASS</li>
+                <li>Pandas</li>
+                <li>Docker</li>
+                <li>Flask</li>
+                <li>PostgresQL</li>
+                <li>SQLAlchemy</li>
             </ul>
+            <br />
+
+            <ul className={skillset2}>
+                <li>After Effects</li>
+                <li>Photoshop</li>
+                <li>Illustrator</li>
+                <li>SparkAR</li>
+            </ul>
+
         </section>
         <section>
-            <h1 className={h1}>References</h1>
+            <h1 className={h1}>Education</h1>
             <br />
             <p>William Grand | <em>Grand Interactive, llc. | CEO</em></p>
             <p>(617) 448-0910 | wgrand@grandinteractive.com</p>
@@ -67,15 +84,17 @@ export default function about() {
             <p>(617) 794-4554 | chris@penroserealty.com</p>
         </section>
                 <section>
-            <h1>Personal Interests</h1>
+            <h1>Hobbies</h1>
             <br />
-            <ul className={skillset}>
-            <li>Faith</li>
-            <li>Biblical Studies</li>
-            <li>Playing Guitar</li>
-            <li>Song Writing</li>
-            <li>Health & Nutrition</li>
+            <ul className={skillset3}>
+            <li>Meditation</li>
+            <li>Yoga</li>
+            <li>Free-diving</li>
+            <li>Probiotics</li>
             <li>Reading</li>
+            <li>Art</li>
+            <li>Animation movies</li>
+            <li>Hiking</li>
             </ul>
         </section>
         </div>
