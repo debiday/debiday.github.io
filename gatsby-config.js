@@ -27,7 +27,7 @@ module.exports = {
     }
   ],
   siteMetadata: {
-    title: 'Portfolio Site',
+    title: 'Portfolio',
     description: 'Made with 💜 by Debiday',
     copyright: 'This website is made in 2021',
     contact: 'deborah.oyt@gmail.com'
