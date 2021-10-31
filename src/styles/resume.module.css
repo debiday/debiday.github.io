@@ -6,7 +6,15 @@
 
     .skillset li:hover
     {
-        background:#0fa;
+        background:rgb(240, 133, 204);
+    }
+    .skillset2 li:hover
+    {
+        background:rgb(240, 133, 204);
+    }
+    .skillset3 li:hover
+    {
+        background:rgb(240, 133, 204);
     }
     
     h1

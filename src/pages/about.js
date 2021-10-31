@@ -10,19 +10,10 @@ export default function about() {
             <h1 className={h1}>Employment</h1>
             <br />
             <br />
-            <h2>🌼 October 2021 - Present | G-research Open Source | Contract, Developer Relations</h2>
+            <h2>🌼 Oct 2021 - Present | G-research Open Source | Contract, Developer Relations</h2>
             <br />
             <ul className={desc}>
             <li>• Writing blogs, articles and demos on Graphql and Dgraph</li>
-            </ul>
-            <h2>🌼 Feb 2021 - May 2021 | Hackbright | Student Engineer</h2>
-            <br />
-            <ul className={desc}>
-                <li>• Accelerated full-stack software engineering program with over 68 lectures</li>
-                <li>• Pair-programmed for over 30 labs and participated in 22 scrums</li>
-                <li>• Gave a lightning talk on REST APIs</li>
-                <li>• Learned 14 different languages/frameworks and built 16 apps</li>
-                <li>• Scripted and gave the graduation speech!</li>
             </ul>
             <h2>🌼 Jun 2018 - Jan 2021 | The Artists Company | Co-founder</h2>
             <br />
@@ -76,12 +67,28 @@ export default function about() {
         <section>
             <h1 className={h1}>Education</h1>
             <br />
-            <p>William Grand | <em>Grand Interactive, llc. | CEO</em></p>
-            <p>(617) 448-0910 | wgrand@grandinteractive.com</p>
-            <p>Eric Chauvin | <em>PadMatcher Inc. | CEO</em></p>
-            <p>(617) 448-0910 | eric@padmatcher.com</p>
-            <p>Chris Heller <em>Penrose Realty LLC. | Broker</em></p>
-            <p>(617) 794-4554 | chris@penroserealty.com</p>
+            <h2>🌱 Feb 2021 - May 2021 | Hackbright Academy | San Francisco</h2>
+            <h3>Student Engineer</h3>
+            <br />
+            <ul className={desc}>
+                <li>• Accelerated full-stack software engineering program with over 68 lectures</li>
+                <li>• Pair-programmed for over 30 labs and participated in 22 scrums</li>
+                <li>• Gave a lightning talk on REST APIs</li>
+                <li>• Learned 14 different languages/frameworks and built 16 apps</li>
+                <li>• Scripted and gave the graduation speech!</li>
+            </ul>
+            <h2>🌱 Jun 2014 - Jun 2016 | Nanyang Technological University | Singapore </h2>
+            <h3>Postgraduate Diploma in Education</h3>
+            <br />
+            <ul className={desc}>
+                <li>• Accelerated full-stack software engineering program with over 68 lectures</li>
+            </ul>  
+            <h2>🌱 Sep 2010 - Jun 2014 | Central St. Martins | London</h2>
+            <h3>Bachelor of Arts, Fine Art, Second Upper with Honours</h3>
+            <br />
+            <ul className={desc}>
+                <li>• Accelerated full-stack software engineering program with over 68 lectures</li>
+            </ul>  
         </section>
                 <section>
             <h1>Hobbies</h1>

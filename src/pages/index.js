@@ -7,7 +7,7 @@ import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 export default function Home({ data }) {
   console.log(data)
   return (
-    <Layout>
+    <Layout style={{height: "100vh"}}>
       <section className={header}> 
         <div>
           <h2>Design</h2>

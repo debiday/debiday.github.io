@@ -43,8 +43,9 @@ nav a {
 nav a:hover {
     border-color: white;
 }
-footer p{
+footer {
     text-align: center;
     color: #bbb;
-    margin: 40px auto;
+    margin: 0px auto;
+    font-size: 30px;
 }
