@@ -12,14 +12,15 @@ export default function ProjectDetails({ data }) {
     return (
         <Layout>
             <div className={details}>
-                <h2>{title}</h2>
-                <h3>{stack}</h3>
+                <h2 style={{fontSize: "9vh"}}>{title}</h2>
+                <h3 style={{fontSize: "7vh"}}>{stack}</h3>
                 <div className={details}> 
                     <GatsbyImage image={getImage(featuredImg.childImageSharp.gatsbyImageData)} alt="Banner" />
                 </div>  
                 <div className={html} dangerouslySetInnerHTML={{__html: html }} />
-                <button className={btn}><a href={link}>Visit</a></button>
-                <button className={btn2}><a href={github}>Github</a></button>
+                <button className={btn}><a href={link} style={{fontSize: "3vh"}}>Visit</a></button>
+                <button className={btn2}><a href={github} style={{fontSize: "3vh"}}>Github</a></button>
+                <br />
             </div>
         </Layout>
     )
