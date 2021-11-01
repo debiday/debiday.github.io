@@ -10,10 +10,10 @@ export default function Home({ data }) {
     <Layout style={{height: "100vh"}}>
       <section className={header}> 
         <div>
-          <h2 style={{fontSize: "9vh"}}>Design</h2>
-          <h3 style={{fontSize: "7vh"}}>Develop and Deploy</h3>
+          <h2 style={{fontSize: "9vh"}}>Hello</h2>
+          <h3 style={{fontSize: "7vh"}}>I'm Deborah&nbsp;👋</h3>
           <p style={{fontSize: "4vh"}}>Software Builder in the Bay Area</p>
-          <Link className={btn} to='/projects'>My Projects</Link>
+          <Link className={btn} to='/projects' style={{fontSize: "3vh"}}>My Projects</Link>
         </div>
         <GatsbyImage image={getImage(data.file.childImageSharp.gatsbyImageData)} alt="Banner" />
       </section>

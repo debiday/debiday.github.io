@@ -1,6 +1,6 @@
 import React from 'react';
 import Layout from '../components/Layout';
-import {skillset, skillset2, skillset3, inner, h1, desc} from '../styles/resume.module.css'
+import {skillset, skillset2, skillset3, inner, desc} from '../styles/resume.module.css'
 
 export default function about() {
 
@@ -11,7 +11,7 @@ export default function about() {
                 <blockquote>“He who has a why to live for can bear almost any how.”―Nietzsche</blockquote>
             </section>
             <section>
-                <h1 className={h1}>Employment</h1>
+                <h1>Employment</h1>
                 <br />
                 <br />
                 <h2>🌼 Oct 2021 - Present | G-research Open Source | Contract, Developer Relations</h2>
@@ -37,7 +37,7 @@ export default function about() {
                 </ul>
         </section>
         <section>
-            <h1 className={h1}>Languages, Frameworks and Libraries</h1>
+            <h1>Languages, Frameworks and Libraries</h1>
             <br />
             <ul className={skillset}>
                 <li>Javascript</li>
@@ -68,7 +68,7 @@ export default function about() {
             </ul>
         </section>
         <section>
-            <h1 className={h1}>Education</h1>
+            <h1>Education</h1>
             <br />
             <h2>🌱 Feb 2021 - May 2021 | Hackbright Academy | San Francisco</h2>
             <h3>&nbsp; Student Engineer</h3>
@@ -90,7 +90,9 @@ export default function about() {
             <h3>&nbsp; Bachelor of Arts, Fine Art, Second Upper with Honours</h3>
             <br />
             <ul className={desc}>
-                <li>• Accelerated full-stack software engineering program with over 68 lectures</li>
+                <li>• Curated shows on contemporary culture, politics and social forms</li>
+                <li>• Knowledge of art history and visual culture</li>
+                <li>• Visual art production from traditional to hyper-digital</li>
             </ul>  
         </section>
                 <section>

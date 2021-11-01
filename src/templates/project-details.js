@@ -1,8 +1,8 @@
 import { graphql } from 'gatsby'
 import React from 'react'
 import Layout from '../components/Layout'
+import { details, btn, btn2 } from '../styles/project-details.module.css'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
-import { details, html, btn, btn2 } from '../styles/project-details.module.css'
 
 export default function ProjectDetails({ data }) {
     console.log(data)

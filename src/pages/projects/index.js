@@ -8,7 +8,7 @@ export default function Projects({ data }) {
     console.log(data);
 
     const projects = data.projects.nodes
-    const contact = data.contact.siteMetadata.contact
+    // const contact = data.contact.siteMetadata.contact
 
     return ( 
         <Layout>
@@ -26,7 +26,6 @@ export default function Projects({ data }) {
                         </Link>
                     ))}
                 </div>
-                <p>Like what you see? Email me at <b>{contact}</b> 👋</p>
             </div>
         </Layout>
     )

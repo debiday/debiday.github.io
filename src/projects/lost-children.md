@@ -8,6 +8,7 @@ thumb: ../images/thumbs/lost.png
 featuredImg: ../images/featured/lost-1.png
 link: "http://lostchildren.deborahong.com/"
 github: "https://github.com/Debiday/The_Lost_Children"
+gif: ../images/gifs/lost-children.gif
 
 ---
 
