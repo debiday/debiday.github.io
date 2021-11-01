@@ -84,7 +84,9 @@ export default function about() {
             <h3>&nbsp; Postgraduate Diploma in Education</h3>
             <br />
             <ul className={desc}>
-                <li>• Accelerated full-stack software engineering program with over 68 lectures</li>
+                <li>• Professional knowledge of teaching and learning processes</li>
+                <li>• Theoretical grounding and critical capacity to make pedagogical judgements </li>
+
             </ul>  
             <h2>🌱 Sep 2010 - Jun 2014 | Central St. Martins | London</h2>
             <h3>&nbsp; Bachelor of Arts, Fine Art, Second Upper with Honours</h3>
