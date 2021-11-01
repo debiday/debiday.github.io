@@ -10,6 +10,7 @@
 
 <div align="center">
 <a href="https://debiday.github.io/" class="button">Website</a>
+<p>🔮</p>
 <a href="https://zen-ptolemy-ffc14b.netlify.app/" class="button">Via Netlify</a>
 </div>
 
