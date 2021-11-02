@@ -89,7 +89,7 @@ export default function about() {
 
             </ul>  
             <h2>🌱 Sep 2010 - Jun 2014 | Central St. Martins | London</h2>
-            <h3>&nbsp; Bachelor of Arts, Fine Art, Second Upper with Honours</h3>
+            <h3>&nbsp; Bachelor of Arts, Fine Art</h3>
             <br />
             <ul className={desc}>
                 <li>• Curated shows on contemporary culture, politics and social forms</li>
