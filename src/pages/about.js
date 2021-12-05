@@ -14,7 +14,13 @@ export default function about() {
                 <h1>Employment</h1>
                 <br />
                 <br />
-                <h2>🌼 Oct 2021 - Present | G-research Open Source | Contract, Developer Relations</h2>
+                <h2>🌼 Jan 2022 - April 2022 | Shopify | Incoming Intern</h2>
+                <br />
+                <ul className={desc}>
+                    <li>• Joining the Shopify Fulfillment Network Team!</li>
+                </ul>
+                <br />
+                <h2>🌼 Oct 2021 - Present | G-research Open Source | Contract, Developer Advocate</h2>
                 <br />
                 <ul className={desc}>
                     <li>• Writing blogs, articles and demos on Graphql and Dgraph</li>
@@ -71,7 +77,7 @@ export default function about() {
             <h1>Education</h1>
             <br />
             <h2>🌱 Feb 2021 - May 2021 | Hackbright Academy | San Francisco</h2>
-            <h3>&nbsp; Student Engineer</h3>
+            <h3>⚪️ Student Engineer</h3>
             <br />
             <ul className={desc}>
                 <li>• Accelerated full-stack software engineering program with over 68 lectures</li>
@@ -81,15 +87,14 @@ export default function about() {
                 <li>• Scripted and gave the graduation speech!</li>
             </ul>
             <h2>🌱 Jun 2014 - Jun 2016 | Nanyang Technological University | Singapore </h2>
-            <h3>&nbsp; Postgraduate Diploma in Education</h3>
+            <h3>⚪️ Postgraduate Diploma in Education</h3>
             <br />
             <ul className={desc}>
                 <li>• Professional knowledge of teaching and learning processes</li>
                 <li>• Theoretical grounding and critical capacity to make pedagogical judgements </li>
-
             </ul>  
             <h2>🌱 Sep 2010 - Jun 2014 | Central St. Martins | London</h2>
-            <h3>&nbsp; Bachelor of Arts, Fine Art</h3>
+            <h3>⚪️ Bachelor of Arts, Fine Art</h3>
             <br />
             <ul className={desc}>
                 <li>• Curated shows on contemporary culture, politics and social forms</li>
@@ -97,7 +102,19 @@ export default function about() {
                 <li>• Visual art production from traditional to hyper-digital</li>
             </ul>  
         </section>
-                <section>
+        <section>
+            <h1>Activities</h1>
+            <br />
+            <h2>🌱 Aug 2021 - Present | Code The Dream | Remote US</h2>
+            <h3>⚪️ Assignment Reviewer</h3>
+            <br />
+            <ul className={desc}>
+                <li>• Weekly review of assignments from students</li>
+            </ul>
+        </section>
+
+
+            <section>
             <h1>Hobbies</h1>
             <br />
             <ul className={skillset3}>
